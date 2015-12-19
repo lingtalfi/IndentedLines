@@ -2,24 +2,18 @@
 
 namespace IndentedLines\ValueInterpreter;
 
-use Bat\StringTool;
+use Quoter\QuoteTool;
 
 
 /**
- * ValueInterpreter
+ * QuotableValueInterpreter
  * @author Lingtalfi
- * 2015-12-14
+ * 2015-12-19
  *
  */
-class ValueInterpreter implements ValueInterpreterInterface
+class QuotableValueInterpreter extends ValueInterpreter
 {
 
-
-    public static function create()
-    {
-        return new static();
-    }
-    
 
     //------------------------------------------------------------------------------/
     // IMPLEMENTS ValueInterpreterInterface
@@ -29,7 +23,10 @@ class ValueInterpreter implements ValueInterpreterInterface
      */
     public function getValue($line)
     {
-        return StringTool::autoCast($line);
+        if (false !== $line2 = QuoteTool::unquote($line)) {
+            $line = $line2;
+        }
+        return parent::getValue($line);
     }
 
 }

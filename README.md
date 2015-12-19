@@ -158,6 +158,10 @@ Dependencies
 History Log
 ------------------
     
+- 1.1.0 -- 2015-12-19
+
+    - add QuotableValueInterpreter
+    
 - 1.0.2 -- 2015-12-19
 
     - fix BaseNodeTreeBuild.setKeyFinder, return the instance for fluidity
