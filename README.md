@@ -158,6 +158,10 @@ Dependencies
 History Log
 ------------------
     
+- 1.0.2 -- 2015-12-19
+
+    - fix BaseNodeTreeBuild.setKeyFinder, return the instance for fluidity
+    
 - 1.0.1 -- 2015-12-19
 
     - enhance KeyFinder, add static create method

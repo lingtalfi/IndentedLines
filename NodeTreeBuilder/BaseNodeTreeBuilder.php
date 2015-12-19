@@ -384,6 +384,7 @@ abstract class BaseNodeTreeBuilder implements NodeTreeBuilderInterface
     public function setKeyFinder(KeyFinderInterface $keyFinder)
     {
         $this->keyFinder = $keyFinder;
+        return $this;
     }
 
     /**
