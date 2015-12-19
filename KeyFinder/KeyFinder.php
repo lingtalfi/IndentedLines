@@ -11,9 +11,9 @@ use Quoter\QuoteTool;
  * @author Lingtalfi
  * 2015-12-14
  *
- * 
+ *
  * This key finder accepts blanks between the key and the kvSep.
- * 
+ *
  */
 class KeyFinder implements KeyFinderInterface
 {
@@ -29,6 +29,10 @@ class KeyFinder implements KeyFinderInterface
     }
 
 
+    public static function create()
+    {
+        return new static();
+    }
 
     //------------------------------------------------------------------------------/
     // IMPLEMENTS KeyFinderInterface
@@ -67,5 +71,5 @@ class KeyFinder implements KeyFinderInterface
         $this->kvSepLen = mb_strlen($kvSep);
         return $this;
     }
-    
+
 }

@@ -158,6 +158,11 @@ Dependencies
 History Log
 ------------------
     
+- 1.0.1 -- 2015-12-19
+
+    - enhance KeyFinder, add static create method
+    
+    
 - 1.0.0 -- 2015-12-15
 
     - initial commit
