@@ -158,6 +158,10 @@ Dependencies
 History Log
 ------------------
     
+- 1.2.0 -- 2016-01-11
+
+    - add QuotableValueInterpreter.setQuotedValueIsAlwaysString method
+    
 - 1.1.0 -- 2015-12-19
 
     - add QuotableValueInterpreter

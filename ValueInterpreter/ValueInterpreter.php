@@ -15,6 +15,11 @@ class ValueInterpreter implements ValueInterpreterInterface
 {
 
 
+    public function __construct()
+    {
+        //
+    }
+
     public static function create()
     {
         return new static();
