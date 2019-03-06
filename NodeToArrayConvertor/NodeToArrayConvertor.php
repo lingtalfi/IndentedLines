@@ -1,10 +1,10 @@
 <?php
 
-namespace IndentedLines\NodeToArrayConvertor;
+namespace Ling\IndentedLines\NodeToArrayConvertor;
 
-use IndentedLines\Node\NodeInterface;
-use IndentedLines\ValueInterpreter\ValueInterpreter;
-use IndentedLines\ValueInterpreter\ValueInterpreterInterface;
+use Ling\IndentedLines\Node\NodeInterface;
+use Ling\IndentedLines\ValueInterpreter\ValueInterpreter;
+use Ling\IndentedLines\ValueInterpreter\ValueInterpreterInterface;
 
 
 /**

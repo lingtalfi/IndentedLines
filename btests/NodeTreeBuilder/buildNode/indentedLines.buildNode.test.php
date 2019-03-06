@@ -1,12 +1,12 @@
 <?php
 
-use IndentedLines\NodeToArrayConvertor\NodeToArrayConvertor;
-use IndentedLines\NodeTreeBuilder\NodeTreeBuilder;
-use IndentedLines\ValueInterpreter\ValueInterpreter;
-use PhpBeast\AuthorTestAggregator;
-use PhpBeast\Exception\BeastNotApplicableException;
-use PhpBeast\PrettyTestInterpreter;
-use PhpBeast\Tool\ComparisonErrorTableTool;
+use Ling\IndentedLines\NodeToArrayConvertor\NodeToArrayConvertor;
+use Ling\IndentedLines\NodeTreeBuilder\NodeTreeBuilder;
+use Ling\IndentedLines\ValueInterpreter\ValueInterpreter;
+use Ling\PhpBeast\AuthorTestAggregator;
+use Ling\PhpBeast\Exception\BeastNotApplicableException;
+use Ling\PhpBeast\PrettyTestInterpreter;
+use Ling\PhpBeast\Tool\ComparisonErrorTableTool;
 
 require_once "bigbang.php";
 

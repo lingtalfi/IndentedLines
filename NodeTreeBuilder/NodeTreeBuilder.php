@@ -1,7 +1,7 @@
 <?php
 
 
-namespace IndentedLines\NodeTreeBuilder;
+namespace Ling\IndentedLines\NodeTreeBuilder;
 
 
 /**

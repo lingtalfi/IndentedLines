@@ -1,9 +1,9 @@
 <?php
 
-namespace IndentedLines\KeyFinder;
+namespace Ling\IndentedLines\KeyFinder;
 
-use Bate\MicroStringTool;
-use Quoter\QuoteTool;
+use Ling\Bate\MicroStringTool;
+use Ling\Quoter\QuoteTool;
 
 
 /**

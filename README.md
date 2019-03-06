@@ -17,7 +17,7 @@ Install
 
 Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
-uni import IndentedLines
+uni import Ling/IndentedLines
 ```
 
 
@@ -41,7 +41,7 @@ How to use it?
 <?php
 
 
-use IndentedLines\Tool\IndentedLinesTool;
+use Ling\IndentedLines\Tool\IndentedLinesTool;
 
 require_once "bigbang.php";
 
@@ -69,7 +69,7 @@ a(IndentedLinesTool::parseFlatList($string)); // [apple, banana, cherry, lemon]
 <?php
 
 
-use IndentedLines\Tool\IndentedLinesTool;
+use Ling\IndentedLines\Tool\IndentedLinesTool;
 
 require_once "bigbang.php";
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace IndentedLines\MultiLineCompiler;
+namespace Ling\IndentedLines\MultiLineCompiler;
 
 
 /**

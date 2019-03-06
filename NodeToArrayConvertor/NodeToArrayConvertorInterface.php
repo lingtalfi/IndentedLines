@@ -1,8 +1,8 @@
 <?php
 
 
-namespace IndentedLines\NodeToArrayConvertor;
-use IndentedLines\Node\NodeInterface;
+namespace Ling\IndentedLines\NodeToArrayConvertor;
+use Ling\IndentedLines\Node\NodeInterface;
 
 
 /**

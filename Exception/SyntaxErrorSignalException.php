@@ -1,6 +1,6 @@
 <?php
 
-namespace IndentedLines\Exception;
+namespace Ling\IndentedLines\Exception;
 
 /*
  * LingTalfi 2015-12-05

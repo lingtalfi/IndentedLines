@@ -1,6 +1,6 @@
 <?php
 
-namespace IndentedLines\ValueInterpreter;
+namespace Ling\IndentedLines\ValueInterpreter;
 
 
 /**

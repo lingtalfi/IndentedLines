@@ -1,7 +1,7 @@
 <?php
 
 
-namespace IndentedLines\MultiLineDelimiter;
+namespace Ling\IndentedLines\MultiLineDelimiter;
 
 
 /**

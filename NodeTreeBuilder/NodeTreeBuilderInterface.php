@@ -1,9 +1,9 @@
 <?php
 
 
-namespace IndentedLines\NodeTreeBuilder;
+namespace Ling\IndentedLines\NodeTreeBuilder;
 
-use IndentedLines\Node\NodeInterface;
+use Ling\IndentedLines\Node\NodeInterface;
 
 
 /**

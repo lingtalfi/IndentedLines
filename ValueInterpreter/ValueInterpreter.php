@@ -1,8 +1,8 @@
 <?php
 
-namespace IndentedLines\ValueInterpreter;
+namespace Ling\IndentedLines\ValueInterpreter;
 
-use Bat\StringTool;
+use Ling\Bat\StringTool;
 
 
 /**

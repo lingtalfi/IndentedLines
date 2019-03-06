@@ -1,12 +1,12 @@
 <?php
 
-namespace IndentedLines\Tool;
+namespace Ling\IndentedLines\Tool;
 
 /*
  * LingTalfi 2015-12-15
  */
-use IndentedLines\NodeToArrayConvertor\NodeToArrayConvertor;
-use IndentedLines\NodeTreeBuilder\NodeTreeBuilder;
+use Ling\IndentedLines\NodeToArrayConvertor\NodeToArrayConvertor;
+use Ling\IndentedLines\NodeTreeBuilder\NodeTreeBuilder;
 
 class IndentedLinesTool
 {

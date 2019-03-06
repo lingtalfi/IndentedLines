@@ -1,17 +1,17 @@
 <?php
 
 
-namespace IndentedLines\NodeTreeBuilder;
+namespace Ling\IndentedLines\NodeTreeBuilder;
 
-use IndentedLines\Exception\SyntaxErrorSignalException;
-use IndentedLines\KeyFinder\KeyFinder;
-use IndentedLines\KeyFinder\KeyFinderInterface;
-use IndentedLines\MultiLineCompiler\MultiLineCompilerInterface;
-use IndentedLines\MultiLineCompiler\WithLeftMarginMultiLineCompiler;
-use IndentedLines\MultiLineDelimiter\MultiLineDelimiterInterface;
-use IndentedLines\MultiLineDelimiter\SingleCharMultiLineDelimiter;
-use IndentedLines\Node\Node;
-use IndentedLines\Node\NodeInterface;
+use Ling\IndentedLines\Exception\SyntaxErrorSignalException;
+use Ling\IndentedLines\KeyFinder\KeyFinder;
+use Ling\IndentedLines\KeyFinder\KeyFinderInterface;
+use Ling\IndentedLines\MultiLineCompiler\MultiLineCompilerInterface;
+use Ling\IndentedLines\MultiLineCompiler\WithLeftMarginMultiLineCompiler;
+use Ling\IndentedLines\MultiLineDelimiter\MultiLineDelimiterInterface;
+use Ling\IndentedLines\MultiLineDelimiter\SingleCharMultiLineDelimiter;
+use Ling\IndentedLines\Node\Node;
+use Ling\IndentedLines\Node\NodeInterface;
 
 
 /**

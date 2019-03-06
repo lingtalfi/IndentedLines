@@ -1,7 +1,7 @@
 <?php
 
 
-namespace IndentedLines\Node;
+namespace Ling\IndentedLines\Node;
 
 
 /**
